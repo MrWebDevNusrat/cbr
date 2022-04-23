@@ -69,9 +69,6 @@ class CbrController extends Controller
             $db_date = $check_date->id;
         }
 
-
-
-
         foreach($xml->children() as $empl) {
 
             $cbr = Cbr::create([
